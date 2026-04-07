@@ -1,3 +1,14 @@
+## Getting the Code
+
+Clone the repository:
+
+    git clone https://github.com/JSSiddique/flexql
+    cd flexql
+
+Or download the ZIP from GitHub and extract it, then navigate to the project directory.
+
+---
+
 ## Compilation
 
 Compile the server:
