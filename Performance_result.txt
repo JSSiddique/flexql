@@ -1,8 +1,10 @@
 ================ Performance result for 10M rows =================
 
+Progress: 10000000/10000000
+[PASS] INSERT benchmark complete
 Rows inserted: 10000000
-Elapsed: 45420 ms
-Throughput: 220167 rows/sec
+Elapsed: 43200 ms
+Throughput: 231481 rows/sec
 
 [[...Running Unit Tests...]]
 
@@ -37,5 +39,5 @@ table not found
 Unit Test Summary: 21/21 passed, 0 failed.
 
 --------------------------------
-TOTAL TIME: 45 seconds
+TOTAL TIME: 43 seconds
 --------------------------------

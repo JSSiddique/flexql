@@ -57,7 +57,7 @@ int main()
 
             if (!query.empty())
             {
-                flexql_exec(db, query.c_str(), print_callback, NULL, NULL);
+                flexql_exec(db, (query+';').c_str(), print_callback, NULL, NULL);
             }
 
             buffer = buffer.substr(pos + 1);
